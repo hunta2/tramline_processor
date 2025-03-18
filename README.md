@@ -2,7 +2,8 @@
 TramlineProcessor
 
 TramlineProcessor is a robust geospatial data processing tool designed to analyze and segment a sequence of geographic points (or machine data) into meaningful tramline segments. It is built using Python and leverages powerful libraries such as GeoPandas, Pandas, Shapely, and NumPy. This project showcases advanced techniques in spatial data manipulation and is an excellent example of integrating geospatial analysis with real-world data processing requirements.
-Key Capabilities
+
+Key Capabilities:
 
     Bearing Calculation:
 
@@ -32,7 +33,8 @@ Key Capabilities
 
     Identifies the main tramline directions by analyzing bearing distributions, and subsequently flags points that deviate from these directions. Additionally, it detects and flags small “islands” (minor segments) that may result from noise or anomalies in the data.
 
-Process Workflow
+
+Process Workflow:
 
     Polyline Segmentation:
 
